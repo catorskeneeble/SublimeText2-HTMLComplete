@@ -133,7 +133,7 @@ class TagCompletions(sublime_plugin.EventListener):
             ("span\tTag", "span>$1</span>"),
             ("samp\tTag", "samp>$1</samp>"),
             # ("script\tTag", "script type=\"${1:text/javascript}\">$0</script>"),
-            ("script\tTag", "script type=\"text/javascript\" src=\"$1\">$0</SCRIPT>"), # no longer selects "text/javascript" on complete; adds src attribute by default
+            ("script\tTag", "script type=\"text/javascript\" src=\"$1\">$0</script>"), # no longer selects "text/javascript" on complete; adds src attribute by default
             # ("style\tTag", "style type=\"${1:text/css}\">$0</style>"),
             ("style\tTag", "style type=\"text/css\">$1</style>"), # no longer selects "text/css" on complete
             ("select\tTag", "select>$1</select>"),
